@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body,html,.swiper-container,.main{width: 100%;height:100%;overflow: hidden}
+html{font-size: 100px;}
+.page1{ background:url(../tupian/page1/bg.jpg) no-repeat; background-size:100% 100%;}
+.page1 div{margin: 0 auto;}
+.page1 .text01{
+	background:url(../tupian/page1/text01.png)no-repeat;
+	height:1.83rem;
+	background-size: cover;
+}
+.page1 .text02{
+	background:url(../tupian/page1/text02.png)no-repeat;
+	height: 5.41rem;
+	background-size: cover;
+}
+#page1 .text01{-webkit-animation: bounceInLeft 1s ease 2s both;animation: bounceInLeft 1s ease .2s both;}
+#page1 .text02{-webkit-animation: fadeIn 1s ease 2s both;animation: fadeIn 1s ease .6s both;}
+.page2{ background:url(../tupian/page1/bg.jpg) no-repeat; background-size:100% 100%;}
+.page2 div{margin: 0 auto;}
+.page2 .tou{
+	background:url(../tupian/page2/tou.png)no-repeat;
+	left:3.2rem;
+	top:1.5rem;
+	width:2.08rem;
+	height:2.44rem;
+	background-size:cover;
+}
+.page2 .text03{
+	background:url(../tupian/page2/text03.png)no-repeat;
+	left:5.2rem;
+	top:1.5rem;
+	width:2.08rem;
+	height:2.44rem;
+	background-size:cover;
+}
+.page2 .kuang{
+	background:url(../tupian/page2/kuang.png)no-repeat;
+	left:3.2rem;
+	top:1.34rem;
+	width:2.66rem;
+	height:2.84rem;
+	background-size:cover;
+}
+#page2 .tou{-webkit-animation: bounceInLeft 3s ease 2s both;animation: bounceInLeft 1s ease .2s both;}
+#page2 .text03{-webkit-animation: shake 3s ease 2s both;animation: shake 1s ease .2s both;}
+#page2 .kuang{-webkit-animation: swing 3s ease 2s both;animation: swing 1s ease .2s both;}
+.page3{ background:url(../tupian/page1/bg.jpg)no-repeat; background-size:100% 100%;}
+.page3 .js2{
+	background:url(../tupian/page3/js2.png)no-repeat; 
+	left:3.2rem;
+	width:5.08rem;
+	height:4.44rem;
+	background-size:cover;
+}
+.page3 .js3{
+	background:url(../tupian/page3/js3.png)no-repeat; 
+	left:5.2rem;
+	width:5.08rem;
+	height:4.44rem;
+	background-size:cover;
+}
+#page3 .js2{-webkit-animation: slideInLeft 1s ease 2s both;animation: slideInLeft 1s ease .5s both;}
+#page3 .js3{-webkit-animation: slideInLeft 1s ease 2s both;animation: slideInLeft 1s ease .5s both;}
+.page4{ background:url(../tupian/page4/bg.jpg)no-repeat; background-size:100% 100%;}
+.page4 .js4{
+	background:url(../tupian/page4/js4.png)no-repeat; 
+	left:4.2rem;
+	width:5.18rem;
+	height:4.44rem;
+	background-size:cover;
+	}
+.page4 .js5{
+	background:url(../tupian/page4/js5.png)no-repeat;
+	left:4.2rem;
+	width:5.18rem;
+	height:4.44rem;
+	background-size:cover;
+}
+#page4 .js4{-webkit-animation: fadeInUp 1s ease 2s both;animation: fadeInUp 1s ease .5s both;}
+#page4 .js5{-webkit-animation: fadeInUp 1s ease 2s both;animation: fadeInUp 1s ease .5s both;}
